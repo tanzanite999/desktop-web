@@ -1,0 +1,196 @@
+html, body{
+  margin:0;
+  padding:0;
+}
+
+
+h1{
+  margin: 0;
+  margin-left: 20px;
+  display: inline-block;
+  font-family: "Cinzel";
+  font-weight: 700;
+  font-size: 3rem;
+  text-align: left;
+  text-transform: capitalize;
+}
+
+h1 a{
+  text-decoration: none;
+  color: rgba(255,255,255,0.6);
+}
+
+#wallpaper{
+  width: 100%;
+  height: 800px;
+  background-image: url(../images/pictures/wallpaper2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav{
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  font-size: 1rem;
+  margin: 0px;
+  text-align: right;
+}
+
+
+nav ul{
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+
+.nav-open{
+  height: 0px;
+  overflow: hidden;
+}
+
+.menu-toggle{
+  color: #adadad;
+}
+
+nav ul li{
+  display: inline-block;
+  text-align: center;
+  margin: 0 2rem;
+  padding: 0.2rem 0.5rem;
+  border-bottom: 2px solid #d3d3d3;
+}
+
+nav a{
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: #eaeaea;
+  font-family: Raleway;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+nav ul li:hover{
+  border-bottom: 2px solid #4ae29e;
+  transition: width 1s ease-in-out;
+}
+
+nav ul li a:hover{
+  color: #4ae29e;
+  transition: width 1s ease-in-out;
+}
+
+#wallpaper-box{
+  background-color: rgba(240,240,240,0.3);
+  width:350px;
+  display: block;
+  position: absolute;
+  right: 40px;
+  top: 300px;
+  text-align: center;
+  color: #FFF;
+}
+
+#wallpaper-box h2{
+  font-size: 3rem;
+}
+
+#wallpaper-box h3{
+  font-size: 2rem;
+}
+
+#card{
+  margin: 40px auto;
+  width: 90%;
+/*  box-shadow: 3px 3px 3px #888888; */
+}
+
+#card img.picture{
+  width: 100%;
+  border-radius:0;
+}
+
+#card .caption{
+  text-align: left;
+  font-size: 2rem;
+  font-family: Courgette;
+  margin: 5px;
+}
+
+#card .caption p{
+  margin: 0;
+}
+
+#card .caption .quotation{
+  width:50px;
+  height: 50px;
+}
+
+#card .caption .quotation-2{
+  width:50px;
+  height: 50px;
+  transform: rotate(180deg);
+}
+
+#card .title{
+  display: inline-block;
+  margin: 0px;
+  font-weight: normal;
+}
+
+#card .author{
+  float: right;
+  margin: 0px;
+  display: inline-block;
+  right: 10px;
+  text-align: right;
+  font-size: 1.5rem;
+  font-weight: normal;
+  font-family: Slabo;
+}
+
+#card .info{
+  text-align: right;
+  font-size: 0.8rem;
+  font-family: Roboto;
+  font-style: italic;
+  font-weight: bold;
+  margin: 5px;
+}
+
+#card .info p{
+  margin: 0;
+}
+
+
+
+#footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 10px;
+  margin-bottom: 20px;
+}
+
+#footer .icon{
+  width: 40px;
+}
+
+
+@media (min-width: 600px) {
+  #general{
+    margin: 10px auto;
+    
+/*  box-shadow: 3px 3px 3px #888888; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  #card{
+    width: 600px;
+    margin: 20px 20px;
+  }
+}
