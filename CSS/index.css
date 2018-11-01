@@ -26,6 +26,19 @@ h1 a{
   background-image: url(../images/pictures/wallpaper2.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
+}
+
+#wallpaper h3 a{
+  text-decoration: none;
+  font-size: 1rem;
+  color: #FFF;
+  display: block;
+  margin-top: 20px;
+}
+
+#wallpaper h3 a:hover{
+  color: #c6c6c6; 
 }
 
 nav{
@@ -83,7 +96,7 @@ nav ul li a:hover{
 
 #wallpaper-box{
   background-color: rgba(240,240,240,0.3);
-  width:350px;
+  width:400px;
   display: block;
   position: absolute;
   right: 40px;
@@ -97,7 +110,7 @@ nav ul li a:hover{
 }
 
 #wallpaper-box h3{
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 #card{
@@ -179,7 +192,7 @@ nav ul li a:hover{
 }
 
 
-@media (min-width: 600px) {
+@media screen and (min-width: 600px) {
   #general{
     margin: 10px auto;
     
