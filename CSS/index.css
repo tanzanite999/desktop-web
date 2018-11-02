@@ -94,6 +94,14 @@ nav ul li a:hover{
   transition: width 1s ease-in-out;
 }
 
+#on{
+  border-bottom: 2px solid #5ae292;
+}
+
+#on a{
+  color: #5ae292;
+}
+
 #wallpaper-box{
   background-color: rgba(240,240,240,0.3);
   width:400px;

@@ -77,6 +77,14 @@ nav ul li a:hover{
   transition: width 1s ease-in-out;
 }
 
+#on{
+  border-bottom: 2px solid #5ae292;
+}
+
+#on a{
+  color: #5ae292;
+}
+
 .big-box{
   float: left;
   width: 100%;
@@ -131,3 +139,15 @@ h3{
   right: -60%;
   top: 350px;
 }
+
+#page-3{
+  background-image: url(../images/HTML/about/page-3.jpg);
+}
+
+#page-3-box{
+  width: 500px;
+  left: 60px;
+  top: 500px;
+}
+
+#page-4
